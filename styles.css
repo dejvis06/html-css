@@ -100,6 +100,7 @@ li {
   padding-right: 40px; */
   padding: 20px 40px; /*20 vertical values, 40 horizontal values*/
   margin-bottom: 60px;
+  height: 80px;
 }
 
 .post-header {
@@ -111,6 +112,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0px; /*50 vertical values, 0 horizontal values*/
+  width: 500px;
 }
 
 /* .first-li {
@@ -168,3 +170,8 @@ a:active {
 footer p {
   color: green !important;
 } */
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
