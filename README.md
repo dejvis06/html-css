@@ -1,5 +1,7 @@
 # HTML & CSS
 
+![HTML CSS Recording](html-css-recording-ezgif.com-video-to-gif-converter.gif)
+
 ### Index.html
 
 The `index.html` file is a foundational HTML document that provides a structured layout for a web page. Below is a breakdown of its contents:
