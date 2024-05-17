@@ -1,6 +1,6 @@
 # HTML & CSS
 
-![HTML CSS Recording](html-css-recording-ezgif.com-video-to-gif-converter.gif)
+![HTML CSS Recording](html-css.gif)
 
 ### Index.html
 
