@@ -16,6 +16,8 @@ nav {
 
 article {
   margin-bottom: 60px;
+  width: 500px;
+  float: left;
 }
 
 h1,
@@ -92,7 +94,7 @@ h2::after {
   padding: 5px 10px;
   position: absolute;
   top: -10;
-  right: -25px;
+  right: -0px;
 }
 
 #author {
@@ -115,6 +117,7 @@ h2::after {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 .container {
@@ -143,8 +146,10 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0px; /*50 vertical values, 0 horizontal values*/
-  width: 500px;
+  padding: 50px 40px; /*50 vertical values, 0 horizontal values*/
+  width: 250px;
+  float: right;
+  box-sizing: border-box;
 }
 
 /* .first-li {
@@ -226,4 +231,31 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+/* FLOATS */
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  /*   padding-left: 80px; */
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+footer {
+  background-color: yellow;
+  clear: both;
 }
